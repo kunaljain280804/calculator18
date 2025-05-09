@@ -1,0 +1,70 @@
+/* Calculator Container Styling */
+.calculator {
+  max-width: 320px;
+  background-color: #ffffff; /* pure white */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* Display Styling */
+.display {
+  background-color: #fdfdfd; /* almost white */
+  color: #555555; /* soft gray text */
+  font-size: 2rem;
+  height: 60px;
+  overflow-x: auto;
+  border-radius: 12px;
+}
+
+/* Button Styling */
+button {
+  height: 60px;
+  font-size: 1.2rem;
+  border-radius: 12px !important;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Light Buttons */
+button.btn-light {
+  background-color: #e8fafa; /* very light cyan */
+  color: #007c91;
+}
+
+/* Operator Buttons */
+button.btn-warning {
+  background-color: #fff3e0; /* very light peach */
+  color: #ff8f00;
+}
+
+/* Info Buttons (Square and Modulo) */
+button.btn-info {
+  background-color: #f1f8e9; /* very light green */
+  color: #558b2f;
+}
+
+/* Clear Button */
+button.btn-danger {
+  background-color: #ffe9e4; /* soft coral pink */
+  color: #d84315;
+}
+
+/* Equals Button */
+button.btn-success {
+  background-color: #e8f5e9; /* soft mint green */
+  color: #2e7d32;
+}
+
+/* Hover Effects */
+button:hover {
+  opacity: 0.95;
+}
+
+h2 {
+  color: #444444; /* soft dark gray */
+  font-weight: bold;
+}
